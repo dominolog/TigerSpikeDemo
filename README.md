@@ -2,14 +2,14 @@
 by Dominik Tomczak
 
 # Technologies used:
-## Dagger 2
-## Retrofi 2
-## RxJava with Retrolambda
-## Picasso for image loading
-## ButterKnife 
-## PhotoView library 
-## Google Maps
-## EventBus from GreenRobot
+1. Dagger 2
+2. Retrofi 2
+3. RxJava with Retrolambda
+4. Picasso for image loading
+5. ButterKnife 
+6. PhotoView library 
+7. Google Maps
+8. EventBus from GreenRobot
 
 I haven't used any MVVN/MVP framework for this project although I am using such frameworks on a daily basis.
 This code is based on my Android application available in Google Play:
