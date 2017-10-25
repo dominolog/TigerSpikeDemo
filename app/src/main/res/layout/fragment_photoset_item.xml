@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/viewContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:hapticFeedbackEnabled="true"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:background="@color/light_gray"
+        android:scaleType="centerCrop" />
+
+
+
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:gravity="center"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_play_circle_filled_opaque_24dp" />
+
+
+    <ImageView
+        android:id="@+id/selected"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:adjustViewBounds="true"
+        android:background="?attr/colorPrimary"
+        android:gravity="center"
+        android:scaleType="centerInside"
+        android:tint="@color/white"
+        android:visibility="gone"
+        app:srcCompat="@drawable/ic_done_black_24dp" />
+
+
+
+</FrameLayout>

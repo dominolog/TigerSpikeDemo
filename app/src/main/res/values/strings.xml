@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">TigerSpikeTest</string>
+
+    <string name="this_set_is_empty">This set is empty</string>
+    <string name="there_are_no_photos">There are no photos</string>
+    <string name="error_while_loading_photoset">Error while loading photos!</string>
+    <string name="popular">Popular</string>
+    <string name="recent">Recent</string>
+    <string name="favorites">Favorites</string>
+    <string name="there_are_no_galleries">There are no galleries</string>
+    <string name="error_while_loading_comments">Error while loading comments!</string>
+    <string name="there_are_no_comments">There are no comments</string>
+    <string name="this_pool_is_empty">This pool is empty</string>
+
+
+    <string name="menu_comments">Comments</string>
+    <string name="menu_download">Download</string>
+    <string name="photos">Photos</string>
+    <string name="galleries">Galleries</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_info">Info</string>
+    <string name="menu_wallpaper">Set as wallpaper</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="editors">Editors\' choice</string>
+    <string name="highest_rated">Highest Rated</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="date_created">Date Created</string>
+    <string name="exif">Exif</string>
+    <string name="tags">Tags</string>
+    <string name="loading">Loading</string>
+    <string name="error_while_getting_video_url">Error while getting video url!</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="error_while_updating_photo">Error while updaing photo!</string>
+    <string name="popular_photos">Popular Photos</string>
+    <string name="recent_photos">Recent Photos</string>
+    <string name="friends_photos">Friends Photos</string>
+    <string name="popular_sets">Popular Sets</string>
+    <string name="sets">Sets</string>
+    <string name="followers">Followers</string>
+    <string name="friends">Friends</string>
+    <string name="there_are_no_users">There are no users</string>
+    <string name="this_list_is_empty">This list is empty</string>
+    <string name="error_while_loading_users">Error while loading users!</string>
+    <string name="following">Friends</string>
+
+
+    <string name="d_followers">%d Followers</string>
+    <string name="d_following">%d Following</string>
+    <string name="d_views">%d views</string>
+    <string name="d_photos">%d Photos</string>
+    <string name="users">Users</string>
+    <string name="error_while_adding_comment">Error while adding comment!</string>
+    <string name="comments">Comments</string>
+
+</resources>

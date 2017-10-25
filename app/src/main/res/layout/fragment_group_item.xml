@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardElevation="@dimen/cardview_default_elevation"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:hapticFeedbackEnabled="true"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:background="@color/light_gray"
+            android:scaleType="centerCrop" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/options"
+                style="?attr/actionOverflowButtonStyle"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:clickable="true"
+                android:tint="@color/white" />
+
+
+            <LinearLayout
+                android:id="@+id/bottom_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:layout_toStartOf="@+id/options"
+                >
+
+                <TextView
+                    android:id="@+id/title"
+                    style="@style/TextAppearance.AppCompat.Title.Inverse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1" />
+
+
+                <TextView
+                    android:id="@+id/num_items"
+                    style="@style/TextAppearance.AppCompat.Small.Inverse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/date_modified"
+                        style="@style/TextAppearance.AppCompat.Small.Inverse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:ellipsize="end"
+                        android:maxLines="1" />
+
+
+                    <ImageView
+                        android:id="@+id/img_num_views"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:tint="@color/text_color_primary_dark"
+                        app:srcCompat="@drawable/ic_visibility_black_24dp" />
+
+
+                    <TextView
+                        android:id="@+id/num_views"
+                        style="@style/TextAppearance.AppCompat.Small.Inverse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="5dp"
+                        android:ellipsize="end"
+                        android:maxLines="1" />
+
+
+                    <ImageView
+                        android:id="@+id/privacy"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginStart="10dp"
+                        android:tint="@color/text_color_primary_dark"
+                        app:srcCompat="@drawable/ic_lock_outline_black_24dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
