@@ -13,5 +13,5 @@ public class Constants {
 	public static final String REQUEST_TOKEN_ENDPOINT_URL = "https://www.flickr.com/services/oauth/request_token";
 	public static final String ACCESS_TOKEN_ENDPOINT_URL = "https://www.flickr.com/services/oauth/access_token";
 	public static final String AUTHORIZE_WEBSITE_URL = "https://www.flickr.com/services/oauth/authorize";
-	
+
 }
